@@ -1,0 +1,81 @@
+site_name: Func_Menu 多功能菜单插件教程
+site_description: Minecraft 基岩版 Func_Menu 多功能菜单插件详细使用教程
+site_author: qcbby
+site_url: https://mcqcbby.github.io/Func_Menu/
+use_directory_urls: true
+
+theme:
+  name: material
+  language: zh
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+    - scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+nav:
+  - 首页: index.md
+  - 快速开始:
+      - 安装教程: install.md
+      - 管理员权限: op.md
+      - 菜单钟使用: menu.md
+      - 玩家使用流程: player-guide.md
+      - 管理员使用流程: admin-guide.md
+  - 功能教程:
+      - 传送系统: systems/teleport.md
+      - 领地系统: systems/land.md
+      - 经济系统: systems/money.md
+      - 商店系统: systems/shop.md
+      - 称号系统: systems/title.md
+      - 签到系统: systems/sign.md
+      - 公会系统: systems/guild.md
+      - 侧边栏: systems/sidebar.md
+  - 常见问题: faq.md
+  - 更新记录: changelog.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; 2026 qcbby
