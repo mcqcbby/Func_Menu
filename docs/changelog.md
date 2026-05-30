@@ -1,9 +1,6 @@
 # 更新记录
 
-## MkDocs Material 完整导航版
+## Func_Menu_v1.0.0
 
-- 改为 MkDocs Material。
-- 使用 GitHub Actions 构建 `site/` 后发布。
-- 手机端支持正常导航、搜索和目录。
-- 保留 Func_Menu 插件详细教程内容。
-- 删除 VitePress 相关配置。
+- Func_Menu1.0.0版本发布
+- Func_Menu 是一个 Minecraft 基岩版菜单型行为包，适合本地存档、生存服和小型服务器使用。
