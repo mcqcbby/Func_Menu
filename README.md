@@ -1,40 +1,29 @@
-# Func_Menu MkDocs Material 完整导航版
+# Func_Menu 多功能菜单插件教程
 
-这是 Func_Menu 的 MkDocs Material 文档项目。
+Func_Menu 是一个 Minecraft 基岩版菜单型行为包，适合本地存档、生存服和小型服务器使用。
 
-## GitHub Pages 部署
+## 插件功能总览
 
-上传到 GitHub 仓库根目录：
+| 系统 | 玩家能做什么 | 管理员能做什么 | 默认状态 |
+| --- | --- | --- | --- |
+| 传送系统 | 个人点、公共点、随机传送、TPA | 管理公共点、开关动画 | 开启 |
+| 领地系统 | 创建和管理自己的领地 | 管理全部领地 | 开启 |
+| 经济系统 | 查看余额、转账、排行榜 | 加钱、扣钱、管理经济 | 开启 |
+| 商店系统 | 购买商品、回收商品 | 添加出售商品、添加回收商品 | 开启 |
+| 称号系统 | 创建和佩戴称号 | 开关称号系统 | 关闭 |
+| 签到系统 | 每日签到、补签、查看排行 | 发补签卡、开关签到 | 关闭 |
+| 公会系统 | 创建/加入公会、捐献、传送 | 开关公会、管理公会 | 关闭 |
+| 侧边栏 | 查看服务器信息 | 开关显示项目 | 关闭 |
 
-```text
-mkdocs.yml
-requirements.txt
-docs/
-.github/workflows/deploy.yml
-README.md
-```
+!!! warning "本地存档提示"
+    如果表单打不开，通常是顶部“聊天和命令”界面没有关闭。先关闭聊天栏，再重新点击菜单按钮。
 
-GitHub Pages 设置：
-
-```text
-Settings → Pages → Source → GitHub Actions
-```
-
-然后运行：
+## 推荐阅读顺序
 
 ```text
-Actions → Deploy MkDocs Material to Pages
-```
-
-成功后访问：
-
-```text
-https://mcqcbby.github.io/Func_Menu/
-```
-
-## 本地预览
-
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
+1. 安装教程
+2. 管理员权限
+3. 菜单钟使用
+4. 玩家使用流程
+5. 管理员使用流程
+6. 各功能系统教程
