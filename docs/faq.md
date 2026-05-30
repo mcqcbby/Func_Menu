@@ -1,20 +1,3 @@
-# 常见问题
-
-## GitHub Pages 页面只有文字，没有完整界面
-
-说明发布的不是 MkDocs Material 构建后的 `site/`，或者 Pages 发布源设置不对。
-
-正确设置：
-
-```text
-Settings → Pages → Source → GitHub Actions
-```
-
-然后运行：
-
-```text
-Actions → Deploy MkDocs Material to Pages
-```
 
 ## 菜单打不开
 
