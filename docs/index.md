@@ -1,5 +1,6 @@
+![image](tp/20260627001.png)
 # Func_Menu 多功能菜单插件教程
-![image](tp/002.png)
+
 Func_Menu 是一个 Minecraft 基岩版菜单型行为包，适合本地存档、生存服和小型服务器使用。
 
 ## 插件功能总览
