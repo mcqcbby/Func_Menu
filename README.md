@@ -1,4 +1,4 @@
-# Func_Menu 多功能菜单插件教程
+# Func_Menu 多功能菜单插件
 
 Func_Menu 是一个 Minecraft 基岩版菜单型行为包，适合本地存档、生存服和小型服务器使用。
 
